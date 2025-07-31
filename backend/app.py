@@ -9,7 +9,7 @@ def home():
 
 @app.route('/api')
 def api():
-    return "This is the /api endpoint from Backend!"
+    return "This is the /api endpoint from Backend from flask!"
 
 @app.route('/db')
 def db_check():
